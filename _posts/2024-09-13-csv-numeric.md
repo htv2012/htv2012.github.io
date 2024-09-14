@@ -15,17 +15,6 @@ to strings and numeric values, respectively.
 Consider the following CSV file:
 
 
-```python
-import csv
-import json
-import pathlib
-
-data_path = pathlib.Path("convert_numeric_values.csv")
-print(data_path.read_text())
-```
-
-Output:
-
     "uid","alias","shell","rate"
     501,"karen","zsh",105.3
     502,"john","bash",97.5
@@ -35,6 +24,7 @@ We can tell CSV to convert unquoted values to numeric:
 
 
 ```python
+# data_path is the path to the CSV data
 with open(data_path) as stream:
     reader = csv.reader(stream, quoting=csv.QUOTE_NONNUMERIC)
     for row in reader:
@@ -51,6 +41,7 @@ Output:
 Note that `csv` blindly convert numeric values into float. If we want
 to convert the UID column to int, we will have to do it ourselves. This
 is a limitation of the `csv` library.
+
 
 # Convert Using JSON
 
