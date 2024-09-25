@@ -7,3 +7,5 @@ layout: home
 
 This is my playground where I share development tibits.
 
+My [resumes](/resumes)
+
