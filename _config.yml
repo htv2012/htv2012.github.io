@@ -27,14 +27,14 @@ url: "https://htv2012.github.io" # the base hostname & protocol for your site, e
 github_username:  htv2012
 linkedin_username: haivu
 
+collections:
+  resume:
+    output: true
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
-collections:
-  - resume
 
 # Exclude from processing.
 # The following items will not be processed, by default.
