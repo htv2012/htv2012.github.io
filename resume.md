@@ -6,6 +6,6 @@ permalink: /resume/
 
 # My Resume
 
-- [sofi](/resume/sofi.md)
-- [snowflake](/resume/snowflake.md)
+- 2024-09-19 [SoFi](/resume/sofi.md)
+- 2024-09-19 [Snowflake - Inceberg](/resume/snowflake.md)
 
