@@ -1,9 +1,6 @@
 ---
-layout: page
 title: Hai Vu for Snowflake - Iceberg
 ---
-
-# Hai Vu for Snowflake - Iceberg
 
 Hai Vu *haivu\_work@airpost.net*
 

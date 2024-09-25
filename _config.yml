@@ -30,6 +30,7 @@ linkedin_username: haivu
 collections:
   resume:
     output: true
+    permalink: /resume/:name
 
 # Build settings
 theme: minima
