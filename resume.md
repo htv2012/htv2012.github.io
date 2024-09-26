@@ -9,3 +9,7 @@ permalink: /resume/
 - 2024-09-19 [SoFi](/resume/sofi.md)
 - 2024-09-19 [Snowflake - Iceberg](/resume/snowflake.md)
 
+{% for res in site.resume %}
+- [{{ res.title }}](res)
+{% endfor %}
+
