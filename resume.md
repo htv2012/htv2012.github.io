@@ -12,6 +12,6 @@ permalink: /resume/
 # Resume
 
 {% for res in site.resume %}
-- [{{ res.title }}]({% link {{res.name}} %})
+- [{{ res.title }}]({{res.url}})
 {% endfor %}
 
