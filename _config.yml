@@ -31,6 +31,7 @@ collections:
   resume:
     output: true
     permalink: /resume/:name
+    sort_by: title
 
 # Build settings
 theme: minima

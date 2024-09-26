@@ -1,10 +1,10 @@
 ---
-title: Hai Vu for Snowflake - Iceberg
+title: Hai Vu for SoFi
 ---
 
-# Hai Vu for Snowflake - Iceberg
+# Hai Vu for SoFi
 
-hai vu *haivu\_work@airpost.net*
+*haivu\_work@airpost.net*
 
 Seasoned software test engineer with experience in automated software
 testing and agile development is seeking new career challenges.
