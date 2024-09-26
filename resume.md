@@ -10,6 +10,6 @@ permalink: /resume/
 - 2024-09-19 [Snowflake - Iceberg](/resume/snowflake.md)
 
 {% for res in site.resume %}
-- [{{ res.title }}](res)
+- [{{ res.title }}]({% link {{res.path}} %})
 {% endfor %}
 
