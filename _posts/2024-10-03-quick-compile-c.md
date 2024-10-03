@@ -24,10 +24,9 @@ Then to compile, I can issue one of these commands:
     make hello
 
 All is good at this point. However, after a while, even writing a simple
-`Makefile` gets tedious. There must be a better way. It turns out that
-`make` knows how to compile a C or C++ source, even without the help
-of a `Makefile`. That simplifies my workflow quite a bit, which is
-now involves:
+`Makefile` gets tedious. It turns out that `make` knows how to compile a
+C or C++ source, even without the help of a `Makefile`. That simplifies
+my workflow quite a bit, which is now involves:
 
 1. Write the source, say `hello.cpp`
 2. Compile and run:
