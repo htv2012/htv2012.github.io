@@ -1,23 +1,27 @@
 ---
-title: Hai Vu for SoFi
+title: Hai Vu 
 ---
 
-# Hai Vu for SoFi
+# Hai Vu
 
-*haivu\_work@airpost.net*
+Hai Vu *haivu\_work@airpost.net*
 
 Seasoned software test engineer with experience in automated software
 testing and agile development is seeking new career challenges.
 
 ## Qualifications
 
-* BS is Computer Science from the University of Colorado  
-* MBA from the University of Phoenix  
-* Platforms: Linux, Windows, and macOS  
-* Languages: fluent Python and Pytest  
-* Technologies: RESTful Web Services, SQL (PostGres, MySQL, and SQLite)  
-* Certified Scrum Master certificate with years of experience  
-* Work on GitHub pipeline for personal projects
+* 20+ years of SDET experience
+* 10+ years of RESTful Web Services API testing experience
+* Experienced with writing API tests for many test categories: smoke,
+  integration, functional, end-to-end, and regression
+* Work on GitHub actions (CICD) for personal projects
+* Languages: fluent Python and Pytest
+* BS is Computer Science from the University of Colorado
+* MBA from the University of Phoenix
+* Platforms: Linux, Windows, and macOS
+* Technologies: RESTful Web Services, SQL (PostGres, MySQL, and SQLite)
+* Certified Scrum Master certificate with years of experience
 
 
 ## F5 NETWORK, Software Engineer, 11/2021-11/2023, Seattle WA
@@ -33,7 +37,7 @@ testing and agile development is seeking new career challenges.
 * Act as a liaison for my team to communicate inter-team issues such as
   test coverage, common test libraries design, and bugs report
 
-### Technologies involved  
+### Technologies involved
 
 * Platform: Linux (primary Ubuntu and Red Hat Enterprise Linux)
 * Technologies: RESTful Web Services, NGINX configurations, remote
@@ -47,24 +51,24 @@ testing and agile development is seeking new career challenges.
 * Assisted the team’s scrum master to streamline daily standup
 * Critically reviewed team’s code for better quality and readability
 
-### Technologies involved:  
-  * Platform: Linux  
+### Technologies involved:
+  * Platform: Linux
   * Technologies: Python, RESTCONF, RESTful Web Services, and primitive BIOS commands
 
 ## TABLEAU SOFTWARE, Software Engineer/Scrum Master, 8/2014-12/2018, Kirkland, WA
 
-* In charge of test automation of the company’s flagship products: Tableau Desktop and Tableau Server  
+* In charge of test automation of the company’s flagship products: Tableau Desktop and Tableau Server
 
-### Tools involved:   
-* Desktop testing: Python, unittest, nosetests, pytest, PostGres SQL, REST  
+### Tools involved:
+* Desktop testing: Python, unittest, nosetests, pytest, PostGres SQL, REST
 * Server testing: Java, JUnit, Hamcrest, Gradle
 
 ### Key accomplishments
 
-* Created core automation test libraries for other teams to use, which covers 8 out of 30 features  
-* Increased automation coverage for those 8 features from zero to over 80%  
-* Automated many time-consuming aspects of testing Tableau Server such as setting up clusters and changing configurations  
-* Created many productivity-enhancement tools for the entire development community to use  
+* Created core automation test libraries for other teams to use, which covers 8 out of 30 features
+* Increased automation coverage for those 8 features from zero to over 80%
+* Automated many time-consuming aspects of testing Tableau Server such as setting up clusters and changing configurations
+* Created many productivity-enhancement tools for the entire development community to use
 * As a scrum master, use Tableau’s own software to create reports and gain understand of team’s performance strengths and bottlenecks
 
 ## CISCO SYSTEMS, Software Engineer/Scrum Master, 3/2008 \- 10/2013, Seattle, WA
@@ -166,4 +170,4 @@ communication.
 
 ## Additional Information
 
-US citizenship, authorized to work in the US. 
+US citizenship, authorized to work in the US.
