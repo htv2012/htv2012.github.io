@@ -1,4 +1,9 @@
+---
+title: Hai Vu Resume
+---
+
 # **Hai Vu**
+[PDF](Hai Vu Resume.pdf)
 
 *haivu\_work@airpost.net*
 
