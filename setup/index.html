@@ -8,12 +8,14 @@ cd "$root" || exit
 if ! which curl > /dev/null
 then
     echo Make sure curl is available
+    cd ..
+    rmdir "$root"
     exit
 fi
 
 # Download
 echo Downloading setup.tar...
-curl -s 'https://htv2012.github.io/setup.tar' -o setup.tar
+curl https://htv2012.github.io/setup.tar -o setup.tar
 tar -xf setup.tar
 
 echo "Files are downloaded to $root"
