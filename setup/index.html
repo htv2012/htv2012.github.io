@@ -1,1 +1,19 @@
-curl -s https://htv2012.github.io/setup | sh
+#!/bin/sh
+
+cd || exit
+root=$(mktemp --directory --tmpdir=$HOME github-setup-XXXX) || exit
+cd "$root" || exit
+
+# Ensure tools are available
+if ! which curl > /dev/null
+then
+    echo Make sure curl is available
+    exit
+fi
+
+# Download
+echo Downloading setup.tar...
+curl -s 'https://htv2012.github.io/setup.tar' -o setup.tar
+tar -xf setup.tar
+
+echo "Files are downloaded to $root"
