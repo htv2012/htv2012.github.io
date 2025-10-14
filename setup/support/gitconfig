@@ -1,0 +1,9 @@
+[core]
+pager = delta
+[user]
+email = haivu2004@gmail.com
+name = Hai Vu
+[init]
+defaultBranch = main
+[pull]
+rebase = true
