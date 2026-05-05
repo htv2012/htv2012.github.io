@@ -49,10 +49,3 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # ======================================================================
 banner Install macOS Development Tools
 xcode-select --install
-
-# ======================================================================
-banner Configure Git
-git config --global user.email "haivu2004@gmail.com"
-git config --global user.name "Hai Vu"
-git config --global init.defaultBranch main
-git config --global pull.rebase true
