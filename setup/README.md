@@ -1,15 +1,12 @@
 Hai's Bootstrap for New System
 ==============================
 
-1. Install the essential tools first
+1. Install distro-specific, e.g.
 
-        sh <distro>/essential.sh
+        bash debian.sh  # on Debian
+        bash darwin.sh  # on macOS
 
-2. Install the tools:
-
-        sh install-tools.sh
-
-3. Add the ssh public key to github
+2. Add the ssh public key to github, bitbucket, ...
 
 4. Install the git repositories:
 
