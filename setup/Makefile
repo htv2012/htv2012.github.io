@@ -10,7 +10,7 @@ repos:
 	sh install-repos.sh
 
 check:
-	python3 support/tools-check.py
+	python3 find_missing.py
 
 tar:
 	cd ..; \

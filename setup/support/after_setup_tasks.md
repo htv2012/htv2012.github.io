@@ -7,6 +7,6 @@
     - Natural Scroll
 - Configure 1Password
 - Configure sync for Joplin
-- Run tools-check.sh
+- Run find_missing.py
 - Configure syncthing
 
