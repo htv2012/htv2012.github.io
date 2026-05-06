@@ -13,19 +13,8 @@ install_repo() {
 
 # ======================================================================
 banner Install my
-if [ ! -d $HOME/my ]
-then
-    install_repo git@github.com:htv2012/my.git $HOME/my
-    cd "$HOME/my/dotfiles/config" || exit
-    for f in *
-    do
-        if [ -e "$HOME/.config/$f" ]
-        then
-            mv "$HOME/.config/$f" "$HOME/.config/${f}.original"
-        fi
-        ln -s "$PWD/$f" "$HOME/.config/$f"
-    done
-fi
+install_repo git@github.com:htv2012/my.git $HOME/my
+$HOME/my/bin/link-dotfiles.sh
 
 # ======================================================================
 banner Install Other projects
