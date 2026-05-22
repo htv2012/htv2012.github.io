@@ -17,8 +17,6 @@ brew install -y
     1password-cli \
     bat \
     bruno-cli \
-    copier \
-    copier \
     csview \
     eza \
     font-inconsolata \
