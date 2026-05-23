@@ -9,7 +9,6 @@ install_apps() {
         bruno \
         build-essential \
         curl \
-        curl \
         eza \
         flatpak \
         fonts-inconsolata \
@@ -22,10 +21,10 @@ install_apps() {
         jq \
         libfuse2 \
         make \
-        make \
         openssh-server \
         python3-venv \
         ripgrep \
+        rsync \
         tmux \
         xsel \
         zsh
