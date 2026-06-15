@@ -17,6 +17,7 @@ pkg install -y python
 pkg install -y ripgrep
 pkg install -y stow
 pkg install -y syncthing
+pkg install -y tailscale
 pkg install -y tmux
 pkg install -y tree
 pkg install -y vim
