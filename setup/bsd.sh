@@ -21,5 +21,6 @@ pkg install -y tailscale
 pkg install -y tmux
 pkg install -y tree
 pkg install -y vim
+pkg install -y zellij
 pkg install -y zsh
 
