@@ -15,6 +15,7 @@ pkg install -y git
 pkg install -y git-delta
 pkg install -y python
 pkg install -y ripgrep
+pkg install -y rust
 pkg install -y stow
 pkg install -y syncthing
 pkg install -y tailscale
