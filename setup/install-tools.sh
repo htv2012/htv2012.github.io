@@ -15,14 +15,16 @@
 get_distro() {
     if [ -f /etc/os-release ]
     then
-        # On Linux systems
+        # On Linux systems and GhostBSD
         sed -n '/^ID=/s/ID=//p' /etc/os-release
     else
         # On systems other than Linux (e.g. Mac or FreeBSD)
         uname
-    fi | tr '[:upper:]' '[:lower:]'
+    fi \
+        | tr '[:upper:]' '[:lower:]' \
+        | sed 's/"//g' \
+        | sed 's/ghostbsd/freebsd/'
 }
-
 
 create_ssh_keys() {
     if [ ! -e ~/.ssh/id_rsa ]
