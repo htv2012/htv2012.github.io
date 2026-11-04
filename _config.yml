@@ -39,7 +39,7 @@ plugins:
   - jekyll-feed
 
 static_files:
-  - setup
+  - setup.sh
   - setup.tar
 # Exclude from processing.
 # The following items will not be processed, by default.
