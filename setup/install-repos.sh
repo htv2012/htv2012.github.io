@@ -1,8 +1,6 @@
-#!/bin/sh
+#!/usr/bin/env bash
 set -euo pipefail
 trap 'echo "Error occurred at line $LINENO"' ERR
-
-source banner.sh
 
 # ======================================================================
 install_repo() {
@@ -12,15 +10,14 @@ install_repo() {
 }
 
 # ======================================================================
-banner Install my
-install_repo git@github.com:htv2012/my.git $HOME/my
-$HOME/my/bin/link-dotfiles.sh
+install_repo git@github.com:htv2012/my.git "$HOME/my"
+"$HOME/my/bin/link-dotfiles.sh"
 
 # ======================================================================
-banner Install Other projects
 mkdir -p ~/Projects
-install_repos git@github.com:htv2012/htv2012.github.io.git $HOME/Projects/htv2012.github.io
-install_repos git@github.com:htv2012/python-rust-cli.git $HOME/Projects/python-rust-cli
-install_repos git@github.com:htv2012/python-sandbox.git $HOME/Projects/python-sandbox
-install_repos git@github.com:htv2012/rust-sandbox.git $HOME/Projects/rust-sandbox
-install_repos git@github.com:htv2012/snip.git $HOME/Projects/snip
+install_repos git@github.com:htv2012/htv2012.github.io.git "$HOME/Projects/htv2012.github.io"
+install_repos git@github.com:htv2012/python-rust-cli.git "$HOME/Projects/python-rust-cli"
+install_repos git@github.com:htv2012/python-sandbox.git "$HOME/Projects/python-sandbox"
+install_repos git@github.com:htv2012/rust-sandbox.git "$HOME/Projects/rust-sandbox"
+install_repos git@github.com:htv2012/snip.git "$HOME/Projects/snip"
+
