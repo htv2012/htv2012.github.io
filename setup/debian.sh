@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 install_apps() {
     sudo apt update
     sudo apt upgrade -y

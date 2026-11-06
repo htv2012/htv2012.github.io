@@ -10,8 +10,6 @@ def main():
     tools = [
         ("bat", "batcat"),
         ("cc",),
-        ("clang",),
-        ("clang-format",),
         ("copier",),
         ("delta",),
         ("eza",),
@@ -21,6 +19,7 @@ def main():
         ("https",),
         ("jq",),
         ("rg",),
+        ("shellcheck",)
         ("ssh",),
         ("tree",),
         ("uv",),
