@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 # Add vscode repo
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 {

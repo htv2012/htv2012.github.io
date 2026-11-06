@@ -4,8 +4,8 @@
 sh debian apt-apps.sh
 
 # Ubuntu name the bat command as batcat, we want to name it bat instead
-mkdir -p $HOME/.local/bin
-ln -s /usr/bin/batcat $HOME/.local/bin/bat
+mkdir -p "$HOME/.local/bin"
+ln -s /usr/bin/batcat "$HOME/.local/bin/bat"
 
 # Locale: needed for Vietnamese language
 sudo apt upgrade -y
