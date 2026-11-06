@@ -19,8 +19,11 @@ install_repo() {
 }
 
 # ======================================================================
-install_repo git@github.com:htv2012/my.git "$HOME/my"
-"$HOME/my/bin/link-dotfiles.sh"
+if ! [ -d "$HOME/my" ]
+then
+    install_repo git@github.com:htv2012/my.git "$HOME/my"
+    "$HOME/my/bin/link-dotfiles.sh"
+fi
 
 # ======================================================================
 mkdir -p ~/Projects
