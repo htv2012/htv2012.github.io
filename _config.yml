@@ -39,9 +39,7 @@ plugins:
   - jekyll-feed
 
 static_files:
-  - d.sh
   - setup.sh
-  - setup.tar
 keep_files:
   - d.sh
   - setup.sh
