@@ -4,8 +4,10 @@ Hai's Bootstrap for New System
 1. Install distro-specific, e.g.
 
         sh bsd.sh     # On FreeBSD, GhostBSD, MidnightBSD, ...
-        sh debian.sh  # on Debian
-        sh darwin.sh  # on macOS
+        sh darwin.sh  # On macOS
+        sh debian.sh  # On Debian
+        sh fedora.sh  # On Fedora
+        sh ubuntu.sh  # On Ubuntu
 
 2. Add the ssh public key to github, bitbucket, ...
 
@@ -19,4 +21,4 @@ Hai's Bootstrap for New System
 
 6. Display after-installation notes
 
-        make notes
+        make after
