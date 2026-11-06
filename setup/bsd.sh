@@ -20,8 +20,8 @@ pkg install -y chromium
 pkg install -y eza
 pkg install -y fzf
 pkg install -y git
-pkg install -y git-delta
 pkg install -y gmake
+pkg install -y hs-ShellCheck
 pkg install -y joplin-desktop
 pkg install -y linux-brave
 pkg install -y python
@@ -42,7 +42,8 @@ pkg install -y zsh
 gmakePath=$(which gmake)
 if [ -n "$gmakePath" ]
 then
-    ln -s "$gmakePath" "${gmakePath/gmake/make}"
+    gmakeDir=$(dirname "$gmakePath")
+    ln -s "$gmakePath" "${gmakeDir}/make"
 fi
 
 # Configure git
