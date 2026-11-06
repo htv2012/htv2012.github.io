@@ -21,6 +21,8 @@ pkg install -y fzf
 pkg install -y git
 pkg install -y git-delta
 pkg install -y gmake
+pkg install -y joplin-desktop
+pkg install -y linux-brave
 pkg install -y python
 pkg install -y ripgrep
 pkg install -y rust
@@ -29,6 +31,7 @@ pkg install -y syncthing
 pkg install -y tailscale
 pkg install -y tmux
 pkg install -y tree
+pkg install -y uv
 pkg install -y vim
 pkg install -y vscode
 pkg install -y zellij
@@ -44,3 +47,9 @@ git config --global user.name "Hai Vu"
 git config --global init.defaultBranch main
 git config --global pull.rebase true
 
+# Create ssh keys
+idFile=$HOME/.ssh/id_ed25519
+if [ ! -e "$idFile" ]
+then
+    ssh-keygen -b 4096 -N "" -t ed25519 -f "$idFile"
+fi

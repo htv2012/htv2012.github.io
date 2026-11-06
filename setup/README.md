@@ -3,9 +3,9 @@ Hai's Bootstrap for New System
 
 1. Install distro-specific, e.g.
 
-        bash bsd.sh     # On FreeBSD, GhostBSD, MidnightBSD, ...
-        bash debian.sh  # on Debian
-        bash darwin.sh  # on macOS
+        sh bsd.sh     # On FreeBSD, GhostBSD, MidnightBSD, ...
+        sh debian.sh  # on Debian
+        sh darwin.sh  # on macOS
 
 2. Add the ssh public key to github, bitbucket, ...
 
