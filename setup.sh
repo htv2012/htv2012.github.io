@@ -35,8 +35,8 @@ curl -s --output linux/uv.sh https://htv2012.github.io/setup/linux/uv.sh
 curl -s --output linux/rust.sh https://htv2012.github.io/setup/linux/rust.sh
 
 
-echo # ======================================================================
-echo # Setup is available at $HOME/setup
-echo # ======================================================================
+echo "======================================================================"
+echo "Setup is available at $HOME/setup"
+echo "======================================================================"
 
 
