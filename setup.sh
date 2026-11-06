@@ -22,17 +22,13 @@ curl -s --output ubuntu.sh https://htv2012.github.io/setup/ubuntu.sh
 curl -s --output find_missing.py https://htv2012.github.io/setup/find_missing.py
 curl -s --output banner.sh https://htv2012.github.io/setup/banner.sh
 curl -s --output README.md https://htv2012.github.io/setup/README.md
-curl -s --output support https://htv2012.github.io/setup/support
-curl -s --output linux https://htv2012.github.io/setup/linux
-
-mkdir -p support
+mkdir -p "support"
+mkdir -p "linux"
 curl -s --output support/add-haiv.sh https://htv2012.github.io/setup/support/add-haiv.sh
 curl -s --output support/configuration.nix https://htv2012.github.io/setup/support/configuration.nix
 curl -s --output support/gitconfig.txt https://htv2012.github.io/setup/support/gitconfig.txt
 curl -s --output support/create_download_script.py https://htv2012.github.io/setup/support/create_download_script.py
 curl -s --output support/after_setup_tasks.md https://htv2012.github.io/setup/support/after_setup_tasks.md
-
-mkdir -p linux
 curl -s --output linux/locale.sh https://htv2012.github.io/setup/linux/locale.sh
 curl -s --output linux/flatpak-apps.sh https://htv2012.github.io/setup/linux/flatpak-apps.sh
 curl -s --output linux/uv.sh https://htv2012.github.io/setup/linux/uv.sh

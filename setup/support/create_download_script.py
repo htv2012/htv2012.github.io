@@ -32,7 +32,6 @@ def main():
     """Entry"""
     print(PROLOGUE)
 
-    created = {"."}
     parent_dir = pathlib.Path(__file__).parent.parent
 
     for file in parent_dir.rglob("*"):
@@ -40,11 +39,10 @@ def main():
             continue
 
         file = file.relative_to(parent_dir)
-        sub_dir = str(file.parent)
-        if sub_dir not in created:
-            print(f"\nmkdir -p {sub_dir}")
-            created.add(sub_dir)
-        print(f"curl -s --output {file} https://htv2012.github.io/setup/{file}")
+        if file.is_dir():
+            print(f'mkdir -p "{file}"')
+        else:
+            print(f"curl -s --output {file} https://htv2012.github.io/setup/{file}")
 
     print(EPILOGUE)
 
