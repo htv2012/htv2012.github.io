@@ -38,8 +38,11 @@ pkg install -y zellij
 pkg install -y zsh
 
 # Symbolic links
-makeDir="$(dirname $(which gmake))"
-ln -s "${makeDir}/gmake" "${makeDir}/make"
+gmakePath=$(which gmake)
+if [ -n "$gmakePath" ]
+then
+    ln -s "$gmakePath" "${gmakePath/gmake/make}"
+fi
 
 # Configure git
 git config --global user.email "haivu2004@gmail.com"
