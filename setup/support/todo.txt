@@ -1,2 +1,0 @@
-Some system does not come with make
-Issue: for ubuntu, I see log which complains that `cc` not found. May be clang is not the right package.
