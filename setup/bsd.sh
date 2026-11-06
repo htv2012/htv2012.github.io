@@ -16,6 +16,7 @@ fi
 pkg update && pkg upgrade -y
 pkg install -y bash
 pkg install -y bat
+pkg install -y chromium
 pkg install -y eza
 pkg install -y fzf
 pkg install -y git
