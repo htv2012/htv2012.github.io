@@ -19,7 +19,7 @@ def main():
         ("https",),
         ("jq",),
         ("rg",),
-        ("shellcheck",)
+        ("shellcheck",),
         ("ssh",),
         ("tree",),
         ("uv",),
