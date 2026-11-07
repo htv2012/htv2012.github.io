@@ -11,8 +11,10 @@ ln -s /usr/bin/batcat "$HOME/.local/bin/bat"
 sudo apt upgrade -y
 sh linux/locale.sh
 
+# Joplin
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+
 # Other apps
-sh common/joplin.sh
 sh debian/1password.sh
 sh debian/syncthing.sh
 sh debian/vscode.sh
